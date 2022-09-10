@@ -14,7 +14,7 @@ public class DaysInMonth {
         if (month == 4 || month == 6 || month == 9 || month == 11) {
             System.out.println(30);
         }
-        else {
+        if (month > 12) {
             System.out.println("invalid date");
         }
     }
